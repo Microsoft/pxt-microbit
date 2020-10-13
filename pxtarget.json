@@ -44,8 +44,7 @@
         "utf8": false,
         "gc": true,
         "imageRefTag": 9,
-        "shimRenames": {
-        },
+        "shimRenames": {},
         "patches": {
             "0.0.0 - 1.0.0": [
                 {
@@ -132,6 +131,13 @@
             "compile": {},
             "compileService": {}
         },
+        "mbdalnosd": {
+            "compile": {},
+            "compileService": {
+                "yottaBinary": "pxt-microbit-app.hex",
+                "yottaTarget": "bbc-microbit-classic-gcc-nosd"
+            }
+        },
         "mbcodal": {
             "compile": {
                 "flashUsableEnd": null,
@@ -191,6 +197,7 @@
         "aspectRatio": 1.22,
         "parts": true,
         "partsAspectRatio": 0.69,
+        "dynamicBoardDefinition": true,
         "boardDefinition": {
             "visual": "microbit",
             "gpioPinBlocks": [
