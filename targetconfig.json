@@ -212,14 +212,20 @@
         ],
         "preferredRepos": [
             "Microsoft/pxt-neopixel",
-            "Microsoft/pxt-microturtle",
-            "Tinkertanker/pxt-tinkercademy-tinker-kit",
+            "4tronix/BitBot",
+            "dfrobot/pxt-maqueen",
             "kittenbot/pxt-robotbit",
             "Microsoft/pxt-sonar",
-            "4tronix/BitBot",
+            "Microsoft/pxt-microturtle",
+            "Tinkertanker/pxt-tinkercademy-tinker-kit",
+            "seeed-studio/pxt-grove",
+            "elecfreaks/pxt-cutebot",
+            "dfrobot/pxt-dfrobot-maqueenplus",
+            "tinkertanker/pxt-iot-environment-kit",
+            "tinkertanker/pxt-ringbitcar",
             "kitronikltd/pxt-kitronik-servo-lite",
             "kitronikltd/pxt-kitronik-motor-driver",
-            "Tinkertanker/pxt-ringbitcar"
+            "tinkertanker/pxt-smarthome"
         ],
         "upgrades": {
             "tinkertanker/pxt-iot-environment-kit": "min:v4.2.1",
