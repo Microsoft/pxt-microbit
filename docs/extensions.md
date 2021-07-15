@@ -282,6 +282,10 @@ Check out [the accessories pages on microbit.org](https://microbit.org/buy/acces
 
 ```codecard
 [{
+  "name": "ESP8266 AT",
+  "url":"/pkg/CytronTechnologies/pxt-esp8266",
+  "cardType": "package"
+}, {
   "name": "Wappsto:bit",
   "url":"/pkg/Wappsto/pxt-wappsto",
   "cardType": "package"
