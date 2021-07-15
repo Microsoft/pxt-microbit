@@ -401,6 +401,10 @@ Check out [the accessories pages on microbit.org](https://microbit.org/buy/acces
 
 ```codecard
 [{
+  "name": "Elecfreaks DRONE:BIT",
+  "url":"/pkg/elecfreaks/pxt-Dronebit/",
+  "cardType": "package"
+}, {
   "name": "MakeKit Hoverbit",
   "url":"/pkg/gomakekit/Hoverbit_V2",
   "cardType": "package"
