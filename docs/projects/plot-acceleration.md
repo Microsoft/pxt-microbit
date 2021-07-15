@@ -6,7 +6,7 @@ The ``||led:plot bar graph||`` uses the screen to display the _magnitude_ (how b
 
 ## Acceleration
 
-In a ``||loops:forever||`` loop, ``||led:plot||`` ``||input:acceleration||`` in the ``x`` dimension on the LEDs.
+In a ``||basic:forever||`` loop, ``||led:plot||`` ``||input:acceleration||`` in the ``x`` dimension on the LEDs.
 
 ```blocks
 basic.forever(function() {
