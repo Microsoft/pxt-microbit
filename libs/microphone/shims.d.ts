@@ -33,5 +33,19 @@ declare namespace input {
     //% group="micro:bit (V2)" threshold.defl=128 shim=input::setSoundThreshold
     function setSoundThreshold(sound: SoundThreshold, threshold?: int32): void;
 }
+declare namespace input {
+
+    /**
+     * Return microphone sampling period in microseconds.
+     */
+    //% shim=input::soundSamplingPeriod
+    function soundSamplingPeriod(): int32;
+
+    /**
+     * Set microphone sampling period in microseconds. Typical range 20-200.
+     */
+    //% shim=input::setSoundSamplingPeriod
+    function setSoundSamplingPeriod(us: int32): void;
+}
 
 // Auto-generated. Do not edit. Really.

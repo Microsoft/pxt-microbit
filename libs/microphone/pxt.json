@@ -1,5 +1,14 @@
 {
     "additionalFilePath": "../../node_modules/pxt-common-packages/libs/microphone",
+    "files": [
+        "README.md",
+        "microphone.cpp",
+        "microphonehw.cpp",
+        "micbuffer.ts",
+        "enums.d.ts",
+        "shims.d.ts",
+        "targetoverrides.ts"
+    ],
     "dependencies": {
         "core": "file:../core"
     }
