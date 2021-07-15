@@ -208,7 +208,8 @@
             "4tronix/EggBit",
             "joy-it/SEN-MPU6050",
             "gomakekit/Hoverbit_V2",
-            "Matrix-Robotics/pxt-MatrixMicro"
+            "Matrix-Robotics/pxt-MatrixMicro",
+            "Can-Github/PinooBit-Code-Blocks"
         ],
         "preferredRepos": [
             "Microsoft/pxt-neopixel",

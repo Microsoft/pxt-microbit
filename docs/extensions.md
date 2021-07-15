@@ -615,6 +615,10 @@ Check out [the accessories pages on microbit.org](https://microbit.org/buy/acces
 
 ```codecard
 [{
+  "name": "Pinoobit",
+  "url":"/pkg/Can-Github/PinooBit-Code-Blocks",
+  "cardType": "package"
+}, {
   "name": "DFRobot Natural Science Board",
   "url":"/pkg/DFRobot/pxt-DFRobot-NaturalScience",
   "cardType": "package"
