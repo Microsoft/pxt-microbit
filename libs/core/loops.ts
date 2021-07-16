@@ -8,7 +8,7 @@ namespace loops {
      */
     //% weight=45 blockAllowMultiple=1
     //% interval.shadow=longTimePicker
-    //% afterOnStart=true
+    //% afterOnStart=true help=loops/every-interval
     //% blockId=every_interval block="every $interval ms"
     export function everyInterval(interval: number, a: () => void): void {
         control.runInParallel(() => {

@@ -1,4 +1,4 @@
-# Forever
+# forever
 
 Keep running part of a program 
 [in the background](/reference/control/in-background).
@@ -8,7 +8,20 @@ basic.forever(() => {
 })
 ```
 
-## Example: compass
+You can have part of a program continuously by placing it in an **forever** loop. The **forever** loop will _yield_ to the other code in your program though, allowing that code to have time to run when needs to.
+
+### ~ reminder
+
+#### Event-based loops
+
+Both the **forever** loop and the **every** loop are _event-based_ loops where the code inside is run as part of a function. These are different from the [for](/blocks/loops/for) and [while](/blocks/loops/while) loops. Those are loops are part of the programming language and can have [break](/blocks/loops/break) and [continue](/blocks/loops/continue) statements in them.
+You can NOT use **break** or **continue** in either a **forever** loop or an **every** loop.
+
+### ~
+
+## Examples
+
+### Example: compass
 
 The following example constantly checks the 
 [compass heading](/reference/input/compass-heading) 
@@ -32,7 +45,7 @@ basic.forever(() => {
 })
 ```
 
-## Example: counter
+### Example: counter
 
 The following example keeps showing the [number](/types/number) stored in a global variable.
 When you press button `A`, the number gets bigger.
@@ -66,5 +79,5 @@ input.onButtonPressed(Button.A, () => {
 
 ## See also
 
-[while](/blocks/loops/while), [on button pressed](/reference/input/on-button-pressed), [in background](/reference/control/in-background)
+[while](/blocks/loops/while), [in background](/reference/control/in-background), [every](/reference/loops/every-interval)
 
